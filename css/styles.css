@@ -97,22 +97,24 @@ a.second-button {
 	border: solid #e8eaeb 3px;
 	border-radius: 35px;
 	padding: 50px;
-	margin: 10px;
+	margin: 20px;
 }
 
 .box {
 	float: left;
-	width: 40%;
-	
+	width: 50%;
+	line-height: 1.5;
 }
 
 .grow {
-	margin-top: 40px;
+	margin: 40px 100px;
 }
 
 .illustration {
 	float: right;
-	width: 40%;
+	width: 30%;
+	position: relative;
+	bottom: 100px;
 	
 }
 
