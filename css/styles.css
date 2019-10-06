@@ -1,0 +1,140 @@
+/*- Very Pale Cyan: hex #ebfbff
+- Very Dark Cyan: hex #00252e
+- Grayish Blue: #808d99 
+- Pink: hex #ff52bf*/
+* {
+  box-sizing: border-box;
+}
+
+.clearfix:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+body {
+	width: 1425px;
+	font-size: 18px;
+	margin: 0 auto;
+	font-family: 'Open Sans', sans-serif;
+	color: #808d99;
+}
+.logo {
+	width: 15%
+}
+.top-container {
+	background-image: url(../images/bg-hero-desktop.svg);
+	padding: 50px 65px 100px;
+	background-color: #ebfbff;
+}
+
+a.first-button {
+	position: absolute;
+	right: 62px;
+	-webkit-border-radius: 35;
+	-moz-border-radius: 35;
+ 	border-radius: 35px;
+ 	font-family: 'Open Sans', sans-serif;
+ 	font-weight: 700;
+ 	color: #00252e;
+ 	font-size: 15px;
+ 	background: #ffffff;
+ 	padding: 13px 65px;
+ 	border: solid #e8eaeb 3px;
+ 	text-decoration: none;
+ 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.03), 0 6px 20px 0 rgba(0,0,0,0.05);
+}
+
+.first-button:hover {
+  background: #ebfbff;
+  text-decoration: none;
+}
+
+.left-box {
+	width: 39%;
+	float: left;
+	margin: 146px 10px 10px 7px;
+	
+}
+
+a.second-button {
+  -webkit-border-radius: 35;
+  -moz-border-radius: 35;
+  border-radius: 35px;
+  font-family: 'Open Sans', sans-serif;
+  color: #ffffff;
+  font-size: 13px;
+  background: #ff52bf;
+  padding: 16px 56px;
+  border: solid #e8eaeb 3px;
+  text-decoration: none;
+  margin: 30px 0 50px;
+  display: inline-block;
+}
+
+.second-button:hover {
+  background: #00252e;
+  text-decoration: none;
+}
+
+.right-box {
+	height: 18.75rem;
+}
+
+.mockup {
+	float: right;
+	width: 54%;
+	margin-top: 70px;
+	
+}
+
+.middle-container {
+	margin: 100px 50px;
+
+}
+
+.copy {
+	border: solid #e8eaeb 3px;
+	border-radius: 35px;
+	padding: 50px;
+	margin: 10px;
+}
+
+.box {
+	float: left;
+	width: 40%;
+	
+}
+
+.grow {
+	margin-top: 40px;
+}
+
+.illustration {
+	float: right;
+	width: 40%;
+	
+}
+
+h1 {
+	font-family: 'Poppins', sans-serif;
+	color: #00252e;
+}
+
+
+
+h2 {
+	font-family: 'Poppins', sans-serif;
+	color: #00252e; 
+	
+
+}
+
+h3 {
+	font-family: 'Poppins', sans-serif;
+	color: #00252e;
+}
+
+a {
+	text-decoration: none;
+}
