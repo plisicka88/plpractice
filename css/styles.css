@@ -29,8 +29,7 @@ body {
 }
 
 a.first-button {
-	position: absolute;
-	right: 62px;
+	float: right;
 	-webkit-border-radius: 35;
 	-moz-border-radius: 35;
  	border-radius: 35px;
@@ -89,7 +88,7 @@ a.second-button {
 }
 
 .middle-container {
-	margin: 100px 50px;
+	margin: 100px 0;
 
 }
 
@@ -97,7 +96,8 @@ a.second-button {
 	border: solid #e8eaeb 3px;
 	border-radius: 35px;
 	padding: 50px;
-	margin: 20px;
+	margin: 10px;
+	height: 500px;
 }
 
 .box {
@@ -118,18 +118,24 @@ a.second-button {
 	
 }
 
+.box-2 {
+	line-height: 1.5;
+}
+
+.conversation {
+	float: left;
+	width: 30%;
+}
+
 h1 {
 	font-family: 'Poppins', sans-serif;
 	color: #00252e;
 }
 
-
-
 h2 {
 	font-family: 'Poppins', sans-serif;
 	color: #00252e; 
 	
-
 }
 
 h3 {
