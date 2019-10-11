@@ -101,25 +101,30 @@ a.second-button {
 }
 
 .box {
-	float: left;
-	width: 50%;
 	line-height: 1.5;
 }
 
 .grow {
 	margin: 40px 100px;
+	float: left;
+	width: 50%;
 }
 
 .illustration {
 	float: right;
 	width: 30%;
-	position: relative;
-	bottom: 100px;
+	
 	
 }
 
 .box-2 {
 	line-height: 1.5;
+}
+
+.flowing {
+	float: right;
+	width: 50%;
+
 }
 
 .conversation {
