@@ -169,7 +169,33 @@ a.third-button {
   display: inline-block;
   font-weight: 700;
   box-shadow: 1px 1px 10px grey;
+}
 
+.third-button:hover {
+  background: #00252e;
+  text-decoration: none;
+}
+
+.logo-1 {
+	filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(104deg) brightness(103%) contrast(100%);
+}
+
+.bottom-container {
+	background-color: #00252e; 
+	margin: 0;
+	padding: 200px 50px;
+	color: #ffffff;
+}
+
+.footer-link {
+	display: inline-block;
+}
+
+.attribution {
+	margin: 0;
+	color: #ffffff;
+	background-color: #00252e; 
+	display: inline-block;
 }
 
 h1 {
@@ -190,4 +216,10 @@ h3 {
 
 a {
 	text-decoration: none;
+	color: #ffffff;
+}
+
+footer {
+	background-color: #00252e;
+
 }
