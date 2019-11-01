@@ -13,7 +13,7 @@
 }
 
 body {
-	width: 1425px;
+	width: 100%;
 	font-size: 18px;
 	margin: 0 auto;
 	font-family: 'Open Sans', sans-serif;
@@ -149,10 +149,13 @@ a.second-button {
 .ready {
 	border: solid #e8eaeb 3px;
     border-radius: 35px;
+    background-color: white;
     padding: 50px;
     margin: 19%;
     height: 290px;
     text-align: center;
+    /*position: relative;
+    top: 400px;*/
 }
 
 a.third-button {
